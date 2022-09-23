@@ -1,0 +1,1 @@
+This repository is a place for all of the notes files from class, to make it easier to access materials as we cover more and more.
