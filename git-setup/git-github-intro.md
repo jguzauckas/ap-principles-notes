@@ -1,9 +1,7 @@
 Setting Local Git Username:
-- Open Git Bash and enter the command (with your username):
-```git config --global user.name "jguzauckas"```
+- Open Git Bash and enter the command (with your username): ```git config --global user.name "jguzauckas"```
 - For simplicity, use your GitHub username as your local Git username.
-- You can check if you set your local username properly:
-```git config --global user.name```
+- You can check if you set your local username properly: ```git config --global user.name```
 
 ***
 
@@ -14,52 +12,53 @@ Linking Git to your GitHub Account:
 - Scroll down and make sure the check box next to “Keep my email addresses private” is checked.
 - Underneath the check box, it should have a paragraph explaining that GitHub will hide the email address linked to your account. Copy the email address given in that paragraph.
   - It should have the format ```########+username@users.noreply.github.com```
-- In Git Bash, enter the following command (with your email):
-```git config --global user.email "########+username@users.noreply.github.com"```
+- In Git Bash, enter the following command (with your email): ```git config --global user.email "########+username@users.noreply.github.com"```
 - In the quotes, type in the email address you copied from GitHub.
-- You can check if you set your email properly:
-```git config --global user.email```
+- You can check if you set your email properly: ```git config --global user.email```
 
+***
 
 Creating a Personal Access Token (PAT):
-Log in to GitHub in a browser.
-At the top right, click on your icon and from the drop-down menu select “Settings”.
-On the left side menu of settings, scroll down to the last options and select “Developer settings”.
-On the left side menu of developer settings, select “Personal access tokens”.
-Click the blue text highlighted “Generate a personal access token”.
-On the “New personal access token” page, fill in the following:
-Note: “Computer Lab Desktop”
-Expiration: Custom… 06/30/2023
-Select all leading checkboxes.
-Select “Generate token” at the bottom of the page.
-This should return you to the “Personal access tokens” page.
-Copy the displayed token, do not close this tab for the time being.
-Open a notepad and paste the token there so we can’t lose it from our clipboard.
+- Log in to GitHub in a browser.
+- At the top right, click on your icon and from the drop-down menu select “Settings”.
+- On the left side menu of settings, scroll down to the last options and select “Developer settings”.
+- On the left side menu of developer settings, select “Personal access tokens”.
+- Click the blue text highlighted “Generate a personal access token”.
+- On the “New personal access token” page, fill in the following:
+  - Note: “Computer Lab Desktop”
+  - Expiration: Custom… 06/30/2023
+  - Select all leading checkboxes.
+  - Select “Generate token” at the bottom of the page.
+  - This should return you to the “Personal access tokens” page.
+- Copy the displayed token, **do not close this tab for the time being.**
+- Open a notepad and paste the token there so we can’t lose it from our clipboard.
 
+***
 
 Linking Git to GitHub:
-Log in to GitHub in a browser.
-On the left side where it says “Recent Repositories”, click on the repository titled “Windsor-CT-Computer-Science/git-github-fundamentals-username”.
-On the right side, select the colored button “Code”
-Check to make sure you’ve pasted your PAT somewhere so we don’t overwrite and lose it!
-It should automatically have “HTTPS” highlighted, click the copy button next to the displayed link to copy it to your clipboard.
-In Git Bash, enter the following command (with your link):
-git clone https://github.com/Windsor-CT-Computer-Science/
-git-github-fundamentals-jguzauckas.git
-A window should pop up titled “Connect to GitHub”.
-Select “Token” next to “Browser/Device”.
-Copy and paste your PAT into this box and click “Sign in”.
+- Log in to GitHub in a browser.
+- On the left side where it says “Recent Repositories”, click on the repository titled ```Windsor-CT-Computer-Science/git-github-fundamentals-username```
+- On the right side, select the colored button “Code”
+- Check to make sure you’ve pasted your PAT somewhere so we don’t overwrite and lose it!
+- It should automatically have “HTTPS” highlighted, click the copy button next to the displayed link to copy it to your clipboard.
+- In Git Bash, enter the following command (with your link): ```git clone https://github.com/Windsor-CT-Computer-Science/git-github-fundamentals-jguzauckas.git```
+- A window should pop up titled “Connect to GitHub”.
+- Select “Token” next to “Browser/Device”.
+- Copy and paste your PAT into this box and click “Sign in”.
 
+***
 
 Setting up Visual Studio Code:
-Open Visual Studio Code.
-Select File → Preferences → Settings
-Or use CTRL + ,
-At the top right, there should be a few buttons, click on the one titled “Open Settings (JSON)”.
-The resulting file opened should just have curly brackets
-Between the curly brackets, make a new line and paste in the following:
+- Open Visual Studio Code.
+- Select File → Preferences → Settings
+  - Or use CTRL + ,
+- At the top right, there should be a few buttons, click on the one titled “Open Settings (JSON)”.
+  - The resulting file opened should just have curly brackets
+- Between the curly brackets, make a new line and paste in the following:
+```
 "terminal.integrated.profiles.windows":{"Git Bash":{"path":"C:\\Program Files\\Git\\bin\\bash.exe"},  },
 "terminal.integrated.defaultProfile.windows": "Git Bash"
+```
 Use CTRL + S to save the changes.
 Now close Visual Studio Code in its entirety.
 Reopen Visual Studio Code.
