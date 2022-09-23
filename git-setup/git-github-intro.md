@@ -1,7 +1,6 @@
 Setting Local Git Username:
 - Open Git Bash and enter the command (with your username):
-
-git config --global user.name "jguzauckas"
+```git config --global user.name "jguzauckas"```
 - For simplicity, use your GitHub username as your local Git username.
 - You can check if you set your local username properly:
 
