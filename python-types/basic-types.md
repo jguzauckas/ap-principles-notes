@@ -6,7 +6,7 @@
 a = 3 		#integer (int)
 b = 2.1 	#float (float)
 c = True 	#boolean (bool)
-d = “Hello” #string (str)
+d = “Hello”     #string (str)
 ```
 - Number Operations:
   - Addition `+`
@@ -18,13 +18,13 @@ d = “Hello” #string (str)
   - Exponentiation `**`
 - Boolean Operations:
   - Integer Casting `int()`
-    - False is 0 and True is 1
+    - `False` is 0 and `True` is 1
   - Not `not`
     - Flip the boolean value
   - And `and`
-    - True if and only if both inputs are true, otherwise false
+    - `True` if and only if both inputs are `True`, otherwise `False`
   - Or `or`
-    - False if and only if both inputs are false, otherwise true
+    - `False` if and only if both inputs are `False`, otherwise `True`
 - String Operations:
   - Strings can be built with either single quotes `‘ ‘` or double quotes `“ “`
     - Multiline strings can be created with triple quotes (either `‘’’  ‘’‘` or `“”” “””`)
