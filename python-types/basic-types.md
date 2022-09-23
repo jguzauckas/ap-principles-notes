@@ -4,9 +4,9 @@
 - Python will automatically assign a type to a variable when it is declared/initialized. Here is an example code segment defining the four basic types of variables:
 ```python
 a = 3 		#integer (int)
-b = 2.1 		#float (float)
-c = True 		#boolean (bool)
-d = “Hello” 	#string (str)
+b = 2.1 	#float (float)
+c = True 	#boolean (bool)
+d = “Hello” #string (str)
 ```
 - Number Operations:
   - Addition `+`
@@ -26,12 +26,12 @@ d = “Hello” 	#string (str)
   - Or `or`
     - False if and only if both inputs are false, otherwise true
 - String Operations:
-  - Strings can be built with either single quotes (‘ ‘) or double quotes (“ “)
-    - Multiline strings can be created with triple quotes (either ‘’’  ‘’‘ or “”” “””)
-  - Length (len())
+  - Strings can be built with either single quotes `‘ ‘` or double quotes `“ “`
+    - Multiline strings can be created with triple quotes (either `‘’’  ‘’‘` or `“”” “””`)
+  - Length `len()`
     - Number of characters in a string
-  - Indexing ([#])
-    - The character at position #, where the numbering starts at 0.
+  - Indexing `[#]`
+    - The character at position `#`, where the numbering starts at 0.
   - Slicing `[#:#]`, `[:#]`, and `[#:]`
     - A chunk of the string defined by the `#`
     - `[#:#]` a chunk from starting position to ending position
