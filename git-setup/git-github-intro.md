@@ -3,8 +3,7 @@ Setting Local Git Username:
 ```git config --global user.name "jguzauckas"```
 - For simplicity, use your GitHub username as your local Git username.
 - You can check if you set your local username properly:
-
-git config --global user.name
+```git config --global user.name```
 
 ***
 
@@ -14,15 +13,12 @@ Linking Git to your GitHub Account:
 - On the left side menu of settings, under the “Access” section, select “Emails”
 - Scroll down and make sure the check box next to “Keep my email addresses private” is checked.
 - Underneath the check box, it should have a paragraph explaining that GitHub will hide the email address linked to your account. Copy the email address given in that paragraph.
-  - It should have the format “########+username@users.noreply.github.com”
-  - For example, mine is “75325154+jguzauckas@users.noreply.github.com”
+  - It should have the format ```########+username@users.noreply.github.com```
 - In Git Bash, enter the following command (with your email):
-
-git config --global user.email "75325154+jguzauckas@users.noreply.github.com"
+```git config --global user.email "########+username@users.noreply.github.com"```
 - In the quotes, type in the email address you copied from GitHub.
 - You can check if you set your email properly:
-
-git config --global user.email
+```git config --global user.email```
 
 
 Creating a Personal Access Token (PAT):
