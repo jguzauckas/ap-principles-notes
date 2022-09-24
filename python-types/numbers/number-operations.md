@@ -1,6 +1,6 @@
 This will demonstrate the basic operations that can be performed on integers and floats.
 
-For a functioning example, check out numberoperations.py and feel free to play around with some values for our variables to see how the operations behave!
+For a functioning example, check out number-operations.py and feel free to play around with some values for our variables to see how the operations behave!
 
 First, let's define two integer variables and two float variables to work with:
 ```python

@@ -1,7 +1,7 @@
 #This program will demonstrate the basic operations that can be performed
 #on integers and floats
 
-#For more information on these examples, check out numberoperations.md
+#For more information on these examples, check out number-operations.md
 
 #First, let's define two integer variables and two float variables to work with
 a = 15
