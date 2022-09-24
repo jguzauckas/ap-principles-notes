@@ -1,4 +1,4 @@
-This program will demonstrate the basic operations that can be performed on integers and floats.
+This will demonstrate the basic operations that can be performed on integers and floats.
 
 First, let's define two integer variables and two float variables to work with:
 ```python
