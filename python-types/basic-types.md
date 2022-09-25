@@ -2,12 +2,14 @@
   - This property describes the rules that the given value has to follow, and which operations can be performed with it.
   - Examples of types are integers, floats, booleans, strings, etc.
 - Python will automatically assign a type to a variable when it is declared/initialized. Here is an example code segment defining the four basic types of variables:
+
 ```python
 a = 3 		#integer (int)
 b = 2.1 	#float (float)
 c = True 	#boolean (bool)
 d = “Hello”     #string (str)
 ```
+
 - Number Operations:
   - Addition `+`
   - Subtraction `-`
@@ -27,7 +29,7 @@ d = “Hello”     #string (str)
     - `False` if and only if both inputs are `False`, otherwise `True`
 - String Operations:
   - Strings can be built with either single quotes `‘ ‘` or double quotes `“ “`
-    - Multiline strings can be created with triple quotes (either `‘’’  ‘’‘` or `“”” “””`)
+    - Multiline strings can be created with triple quotes (either `‘’’ ‘’‘` or `“”” “””`)
   - Length `len()`
     - Number of characters in a string
   - Indexing `[#]`
