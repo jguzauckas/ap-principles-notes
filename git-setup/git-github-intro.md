@@ -1,11 +1,13 @@
-Scenario:
+# Introduction to Git and GitHub
+
+## Scenario:
 
 - You are working on a small project on your computer, learning the basics of Python. You are using Git locally as you work to help keep track of your project. You realize early on that you would like to get this repository on GitHub too so that you can access it remotely. What can we do?
 - This is going to be an opportunity to practice some skills related to Git and GitHub, and make our first Python program!
 
 ---
 
-Step 0: More setup
+## Step 0: More setup
 
 - We want to change one default setting with Git to be more appropriate.
 - The default branch name for new repositories is `master`, which is decidedly less appropriate in the modern day (despite being accurate in computer-specific language).
@@ -25,7 +27,7 @@ git config --global init.defaultBranch
 
 ---
 
-Step 1: Creating a fresh local repository
+## Step 1: Creating a fresh local repository
 
 - Open VS Code
 - Select Terminal → New Terminal
@@ -94,7 +96,7 @@ john@DESKTOP-23C3071 MINGW64 ~/first-python-project (main)
 
 ---
 
-Step 2 - Creating the same repository in GitHub
+## Step 2 - Creating the same repository in GitHub
 
 - Log in to GitHub in a browser.
 - On the left side where it says “Recent Repositories”, click the colored button titled “New”
@@ -120,7 +122,7 @@ first-python-project
 
 ---
 
-Step 3 - Adding a README.md file to our local repository (and committing)
+## Step 3 - Adding a README.md file to our local repository (and committing)
 
 - Open Visual Studio Code.
 - At the top left, select File → Add Folder to Workspace…
@@ -166,7 +168,7 @@ git commit -m “Added README.md file”
 
 ---
 
-Step 4 - Linking the local repository and the GitHub repository
+## Step 4 - Linking the local repository and the GitHub repository
 
 - Log in to GitHub in a browser.
 - On the left side, where it says “Recent repositories”, you should find your recently created `username/first-python-project` repository and click on it.

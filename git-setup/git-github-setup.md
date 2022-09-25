@@ -1,4 +1,6 @@
-Setting Local Git Username:
+# Setting up Git and GitHub
+
+## Setting Local Git Username:
 
 - Open Git Bash and enter the command (with your username):
 
@@ -15,7 +17,7 @@ git config --global user.name
 
 ---
 
-Linking Git to your GitHub Account:
+## Linking Git to your GitHub Account:
 
 - Log in to GitHub in a browser.
 - At the top right, click on your icon and from the drop-down menu select “Settings”.
@@ -38,7 +40,7 @@ git config --global user.email
 
 ---
 
-Creating a Personal Access Token (PAT):
+## Creating a Personal Access Token (PAT):
 
 - Log in to GitHub in a browser.
 - At the top right, click on your icon and from the drop-down menu select “Settings”.
@@ -56,7 +58,7 @@ Creating a Personal Access Token (PAT):
 
 ---
 
-Linking Git to GitHub:
+## Linking Git to GitHub:
 
 - Log in to GitHub in a browser.
 - On the left side where it says “Recent Repositories”, click on the repository titled
@@ -80,7 +82,7 @@ git clone https://github.com/Windsor-CT-Computer-Science/git-github-fundamentals
 
 ---
 
-Setting up Visual Studio Code:
+## Setting up Visual Studio Code:
 
 - Open Visual Studio Code.
 - Select File → Preferences → Settings
@@ -103,7 +105,7 @@ Setting up Visual Studio Code:
 
 ---
 
-Testing the Git-GitHub Link and the First Commit:
+## Testing the Git-GitHub Link and the First Commit:
 
 - At the top of Visual Studio Code, select File → Add Folder to Workspace…
 - In the Explorer window that opened, select the repository we cloned earlier, titled “git-github-fundamentals-username” and click “Add”.

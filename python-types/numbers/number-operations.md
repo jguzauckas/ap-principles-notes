@@ -1,3 +1,5 @@
+# Operations on Numbers (Integers and Floats)
+
 This will demonstrate the basic operations that can be performed on integers and floats.
 
 For a functioning example, check out number-operations.py and feel free to play around with some values for our variables to see how the operations behave!
@@ -12,6 +14,8 @@ y = 7.6
 ```
 
 ---
+
+## Addition
 
 **Addition** `+` works as we'd expect:
 
@@ -40,6 +44,8 @@ This produces the output:
 ```
 
 ---
+
+## Subtraction
 
 **Subtraction** `-` works similarly to addition:
 
@@ -73,6 +79,8 @@ While the previous calculation had trouble using `-4.2`, this one had no trouble
 
 ---
 
+## Multiplication
+
 **Multiplication** `*` works as we expect multiplication to work:
 
 ```python
@@ -91,6 +99,8 @@ This produces the output:
 
 ---
 
+## True Division
+
 **True division** `/` works the way we expect division to, creating a decimal when needed:
 
 ```python
@@ -108,6 +118,8 @@ This produces the output:
 ```
 
 ---
+
+## Integer Division
 
 **Integer division** `//` does traditional division and then rounds _towards zero_ to the nearest whole number:
 
@@ -133,6 +145,8 @@ If we had a negative number, for example like `-0.4473684210526316`, it would ro
 
 ---
 
+## Modulo/Remainder
+
 **Modulo/Remainder** `%` does division and returns the remainder (what was left over after doing division)
 
 ```python
@@ -150,6 +164,10 @@ This produces the output:
 ```
 
 To elaborate on this operation, as it is a less traditional arithmetic operation, you take away the divisor `6` from the dividend `15` until you cannot take away anymore (without going past zero). For us that would be `15 - 6 = 9 - 6 = 3`. You'll notice that we took away the divisor twice, which is where the `2` from our integer division earlier came from. The `3` we had left over is our remainder.
+
+---
+
+## Exponentiation
 
 **Exponentiation** `**` raises the first number to the second number:
 

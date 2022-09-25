@@ -1,3 +1,5 @@
+# Operations on Booleans
+
 This will demonstrate the basic operations that can be performed on booleans
 
 For a functioning example, check out boolean-operations.py and feel free to play around with some values for our variables to see how the operations behave!
@@ -10,6 +12,8 @@ b = False
 ```
 
 ---
+
+## Integer Casting
 
 **Integer casting** shows you the equivalent integer value of the boolean using `int()`. In Python, `True` is equal to `1` and `False` is equal to `0`:
 
@@ -27,6 +31,8 @@ int(False) = 0
 
 ---
 
+## not
+
 The **not** operation flips the value of a boolean to its opposite using the keyword `not`. Simply, `True` becomes `False` and `False` becomes `True`:
 
 ```python
@@ -42,6 +48,8 @@ not False = True
 ```
 
 ---
+
+## and
 
 The **and** operation combines two boolean values using the keyword `and`. `and` takes in two boolean inputs (much like numeric operations take in two numbers) and outputs a value based on them. The way we describe `and`'s output is `True` if and only if both inputs are `True`, and `False` otherwise (that is if at least one or both of the inputs are `False`)
 
@@ -77,6 +85,8 @@ False and False = False
 This mirrors our truth table values from above!
 
 ---
+
+## or
 
 The **or** operation combines two boolean values using the keyword `or`. `or` takes in two boolean inputs (much like numeric operations take in two numbers) and outputs a value based on them. The way we describe `or`'s output is `False` if and only if both inputs are `False`, and `True` otherwise (that is if at least one or both of the inputs are `True`). In the sense of description, this operation feels like an 'opposite' to `and`, as it does the same thing with `False` values that `and` does with `True`
 
