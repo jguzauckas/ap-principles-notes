@@ -16,6 +16,24 @@ string."""
 
 ---
 
+## Concatenate
+
+**Concatenating** means to combine two strings by putting them end-to-end. In Python, the operator for concatenate is `+`, so Python knows to distinguish between string concatenating and integer/float addition.
+
+```python
+print('Combining "' + a + '" and "' + b + '" produces "' + a + b + '"')
+```
+
+This produces the output:
+
+```
+Combining "Hello World" and "Mr. Guzauckas" produces "Hello WorldMr. Guzauckas"
+```
+
+Notice that this does not naturally add a space or anything between, it just puts them one after another!
+
+---
+
 ## Length
 
 **Length** `len()` returns the length of a given string in terms of its number of characters.

@@ -12,6 +12,11 @@ a multi-line
 string."""
 # Triple single or double quotes will allow a multi-line string.
 
+# Concatenating uses the + operator to combine strings
+print("\nConcatenate:")
+print('Combining "' + a + '" and "' + b + '" produces "' + a + b + '"')
+
+
 # Length (len) returns the length of a given string
 print("\nLength:")
 print('The length of "' + a + '" is', len(a), "characters")
