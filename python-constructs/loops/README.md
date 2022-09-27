@@ -1,14 +1,12 @@
 This repository contains a lot of basic information about looping in Python.
 
-Each file has a purpose:
+Each component has two files with similar names. One is a markdown file (`.md`) and the other is a Python file (`.py`).
 
-- for.md
-- for.py
-- foreach.md
-- foreach.py
-- while.md
-- while.py
-- flags.md
-- flags.py
-- else.md
-- else.py
+The markdown file has formatted notes describing concepts and talking about sample code. All of the sample code snippets are found in the Python file for you to be able to run, and modify.
+
+The recommended order for information is:
+
+1. for
+2. for each
+3. while
+4. keywords
