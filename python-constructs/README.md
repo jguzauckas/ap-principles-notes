@@ -6,3 +6,5 @@ The constructs we've covered so far are located in this folder and currently inc
 
 - Conditionals (`if`-`elif`-`else`)
 - Loops (`for` and `while`)
+- Classes
+- Exceptions
