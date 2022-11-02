@@ -1,3 +1,5 @@
+# Setting up Git and GitHub
+
 This section has information on how to get started with Git and GitHub. The recommended order to go through the files is:
 
 1. `git-github-setup.md`

@@ -1,3 +1,5 @@
+# Python Types
+
 This section goes through various types in Python with information on how to use them and what they are capable of. The recommended order to go through the files is:
 
 1. `basic-types.md`
