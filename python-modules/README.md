@@ -4,3 +4,4 @@ This section is devoted to the different modules available in Python that we hav
 - `math`
 - `random`
 - `datetime`
+- `json`
