@@ -11,7 +11,3 @@ The recommended order for information is:
 3. serializing
 4. deserializing
 5. iterables
-
-Then, in the work folder, work on the following:
-1. classwork-write
-2. classwork-read

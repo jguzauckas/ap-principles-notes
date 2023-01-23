@@ -4,4 +4,3 @@ This repository has been designed to introduce you to the idea of **branching** 
 2. git-and-github.md
 3. divergent-branches.md
 4. summary-and-best-practices.md
-5. classwork.md

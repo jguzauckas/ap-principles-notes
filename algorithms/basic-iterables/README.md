@@ -7,4 +7,3 @@ Here is the suggested order:
 1. list-methods
 2. iterables-methods
 3. iterables-algorithms
-4. classworks

@@ -3,4 +3,3 @@ In this short repository, we are covering the `statistics` module for Python, wh
 The order to go through the files in:
 
 1. statistics-module
-2. classwork
